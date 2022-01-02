@@ -1,0 +1,11 @@
+advent-of-code-data~=1.1.1
+black
+flake8
+matplotlib~=3.5.1
+mypy
+numpy~=1.21.4
+optimal_pytorch
+pylint
+scipy~=1.7.3
+tox
+tqdm~=4.62.3
