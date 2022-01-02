@@ -45,8 +45,3 @@ repos:
       - id: isort
         name: isort (python)
         args: [ "--profile", "black", "--filter-files" ]
-  - repo: https://github.com/pre-commit/mirrors-mypy
-    rev: 44afb68a9695d04030edc5cdc5a4fc4f17e4f9e2
-    hooks:
-      - id: mypy
-        args: [ --ignore-missing-imports ]
