@@ -78,7 +78,7 @@ class Cuboid:
             others = {others}
 
         def measure_volume(x):
-            return sum(c.volume for c in x)
+            return sum(c.volume() for c in x)
 
         original_volume = measure_volume(solid) - measure_volume(others)
 
